@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <path id="o453y8ekka" d="M9.558.244l3.96 2.971c.535.403.64 1.159.235 1.69-.405.53-1.168.637-1.704.235L10.04 3.63v10.163c0 .666-.544 1.206-1.216 1.206-.672 0-1.216-.54-1.216-1.206V1.206c0-.457.261-.876.675-1.08.411-.202.906-.158 1.276.118zM5.178 0c.671 0 1.215.54 1.215 1.206v12.588c0 .457-.261.876-.675 1.08-.17.084-.355.126-.54.126-.261 0-.52-.082-.736-.244l-3.96-2.971c-.535-.403-.64-1.159-.235-1.69.405-.53 1.166-.638 1.704-.234l2.01 1.509V1.206C3.96.54 4.505 0 5.177 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g transform="translate(-232 -269) translate(208 140) translate(0 62) translate(24 67) translate(5 5)">
+                                <mask id="q6x1njeq8b" fill="#fff">
+                                    <use xlink:href="#o453y8ekka"/>
+                                </mask>
+                                <use fill="#EB0000" xlink:href="#o453y8ekka"/>
+                                <g fill="#2F3042" mask="url(#q6x1njeq8b)">
+                                    <path d="M0 0H24V24H0z" transform="translate(-5 -5)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

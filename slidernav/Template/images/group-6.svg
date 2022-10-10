@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="233" height="156" viewBox="0 0 233 156">
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g transform="translate(-1072 -80) translate(1072 80)">
+                <rect width="74.74" height="111.63" y="22.14" fill="#FFC600" rx="2.62"/>
+                <g fill="#FFF" opacity=".2" transform="translate(17.78 41.51)">
+                    <circle cx="19.59" cy="19.17" r="18.73"/>
+                </g>
+                <g fill="#FFF" opacity=".2" transform="translate(10.78 92.51)">
+                    <rect width="53.5" height="4.02" x=".55" y=".6" rx="1.88"/>
+                    <rect width="41.02" height="4.02" x=".55" y="9.71" rx="1.88"/>
+                    <rect width="23" height="4.02" x=".55" y="18.13" rx="1.88"/>
+                </g>
+                <path fill="#FFF" d="M39.83 54.72c.62.659 1.032 1.487 1.18 2.38h2.82v1.71h-2.82c-.503 2.505-2.77 4.26-5.32 4.12h-.46l5.49 6.05h-2.94l-5.37-6.05v-1.95h3.13c1.417.184 2.732-.767 3-2.17h-6.13V57.1h6.13c-.273-1.4-1.585-2.349-3-2.17h-3.13v-1.95h11.41v1.74h-3.99z" opacity=".38"/>
+                <rect width="74.74" height="111.63" x="157.86" y="22.14" fill="#FFC600" rx="2.62"/>
+                <g fill="#FFF" opacity=".2" transform="translate(175.78 41.51)">
+                    <circle cx="19.46" cy="19.17" r="18.73"/>
+                </g>
+                <g fill="#FFF" opacity=".2" transform="translate(168.78 92.51)">
+                    <rect width="53.5" height="4.02" x=".41" y=".6" rx="1.88"/>
+                    <rect width="41.02" height="4.02" x=".41" y="9.71" rx="1.88"/>
+                    <rect width="23" height="4.02" x=".41" y="18.13" rx="1.88"/>
+                </g>
+                <path fill="#FFF" d="M197.69 54.72c.624.658 1.038 1.486 1.19 2.38h2.81v1.71h-2.81c-.511 2.504-2.778 4.256-5.33 4.12h-.46l5.49 6.05h-2.93l-5.37-6.05v-1.95h3.13c1.81 0 2.75-.89 3-2.17h-6.13V57.1h6.13c-.268-1.403-1.583-2.354-3-2.17h-3.13v-1.95h11.41v1.74h-4z" opacity=".38"/>
+                <rect width="104.4" height="155.91" x="63.27" fill="#EE2737" rx="2.62"/>
+                <g fill="#FFF" opacity=".15" transform="translate(88.78 27.51)">
+                    <circle cx="26.68" cy="26.31" r="26.16"/>
+                </g>
+                <g fill="#FFF" opacity=".15" transform="translate(78.78 98.51)">
+                    <rect width="74.72" height="5.62" x=".31" y=".61" rx="2.62"/>
+                    <rect width="57.29" height="5.62" x=".31" y="13.34" rx="2.62"/>
+                    <rect width="32.12" height="5.62" x=".31" y="25.1" rx="2.62"/>
+                </g>
+                <path fill="#FFF" d="M118.89 45.51c.873.916 1.451 2.072 1.66 3.32h3.93v2.4h-3.93c-.61 3.45-3.67 5.75-7.44 5.75h-.64l7.66 8.46h-4.08l-7.51-8.46v-2.72h4.38c2.52 0 3.83-1.25 4.18-3h-8.56v-2.4h8.56c-.35-1.75-1.66-3-4.18-3h-4.38v-2.71h15.94v2.36h-5.59z"/>
+            </g>
+        </g>
+    </g>
+</svg>

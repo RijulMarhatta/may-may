@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="32" viewBox="0 0 33 32">
+    <defs>
+        <path id="ansfoj2pga" d="M6.903 0c.896 0 1.622.72 1.622 1.608v16.784c0 .61-.35 1.169-.9 1.44-.229.112-.475.168-.722.168-.348 0-.692-.11-.98-.326l-5.28-3.961c-.714-.537-.855-1.545-.314-2.254.54-.706 1.556-.85 2.272-.31l2.68 2.01V1.608C5.28.719 6.007 0 6.903 0zm5.84.326l5.281 3.961c.714.537.854 1.545.314 2.254-.54.704-1.559.848-2.272.312l-2.68-2.011v13.55c0 .889-.726 1.608-1.622 1.608-.896 0-1.622-.72-1.622-1.608V1.608c0-.61.349-1.169.9-1.44.549-.27 1.208-.21 1.702.158z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g transform="translate(-238 -733) translate(208 709) translate(30.667 20) translate(0 4) translate(0 2.667)">
+                                <mask id="w44mwlagyb" fill="#fff">
+                                    <use xlink:href="#ansfoj2pga"/>
+                                </mask>
+                                <use fill="#EB0000" xlink:href="#ansfoj2pga"/>
+                                <g fill="#2F3042" mask="url(#w44mwlagyb)">
+                                    <path d="M0 0H32V32H0z" transform="translate(-6.667 -6.667)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

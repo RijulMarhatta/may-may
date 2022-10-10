@@ -1,0 +1,23 @@
+    nav a {
+        text-decoration: none;
+        font-family: "Vi-Medium", "Helvetica", "Arial", sans-serif;
+        font-size: 14px;
+        display: inline-block;
+        line-height: 16px;
+        letter-spacing: normal;
+        color: #acacb4;
+        margin: 0px 12px 12px 11px;
+        border-radius: 20px;
+        border: solid 1px #eaeaec;
+    }
+    
+    a {
+        padding: 12px 16px;
+    }
+    
+    .active {
+        font-family: "Vi-Bold", "Helvetica", "Arial", sans-serif;
+        border: solid 1px #fd6;
+        color: black;
+        background-color: #fdf6ec;
+    }

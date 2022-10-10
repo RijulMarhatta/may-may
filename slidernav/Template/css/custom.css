@@ -1,0 +1,75 @@
+/* Font Declaration Start */
+
+@font-face {
+    font-family: 'ViBold';
+    src: url(../fonts/Vi-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Bold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'ViHeavy';
+    src: url(../fonts/Vi-Heavy.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Heavy.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'ViRegular';
+    src: url(../fonts/Vi-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'ViMedium';
+    src: url(../fonts/Vi-Medium.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Medium.ttf) format('truetype')
+}
+
+
+/* Font Declaration End */
+
+body {
+    font-family: 'ViRegular', "Helvetica", "Arial", sans-serif;
+    color: #2f3043;
+}
+
+@media all and (min-width:1200px) {
+    .container {
+        max-width: 1232px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .container1024 {
+        max-width: 1024px;
+        padding: 0;
+    }
+}
+
+.navTabsSim .nav-pills .nav-link.active {
+    font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    border: solid 1px #fd6;
+    color: #2f3043;
+    background-color: #fdf6ec;
+}
+
+.navTabsSim .nav-link {
+    text-decoration: none;
+    font-family: "Vi-Medium", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 16px;
+    color: #acacb4;
+    margin: 0px 12px 12px 0px;
+    border-radius: 20px;
+    border: solid 1px #eaeaec;
+}
+
+@media screen and (max-width:767px) {
+    .navTabsSim {
+        margin-top: 0;
+        padding: 0px 0px
+    }
+    .navTabsSim .nav-link {
+        font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+        font-size: 12px;
+        line-height: 11px;
+        color: #acacb4;
+        margin: 5px;
+        padding: 10px;
+    }
+}

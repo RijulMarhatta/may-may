@@ -1,0 +1,346 @@
+/* div.custom-select {
+    height: 40px;
+    width: 382px;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgb(102 102 102 / 35%);
+    font-family: VodafoneRg;
+    font-size: 16px;
+    position: relative;
+}
+
+.download:disabled,
+.download[disabled] {
+    border: 1px solid #999999;
+    background-color: #e99999;
+    cursor: not-allowed;
+    color: #666666;
+}
+
+div.selected {
+    width: inherit;
+    cursor: pointer;
+    display: inline-block;
+    right: 9px;
+    position: relative;
+}
+
+.fa {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: black;
+}
+
+div.selected>.text {
+    position: relative;
+    width: 91%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+div.select-box {
+    z-index: 10029;
+    left: -1px;
+    top: 40px;
+    position: absolute;
+    visibility: hidden;
+    box-shadow: 0 2px 5px 0 rgb(102 102 102 / 35%);
+}
+
+div.select-box.active {
+    visibility: visible;
+}
+
+div.select-box.drop-up {
+    top: auto;
+    bottom: 100%;
+}
+
+ul.select-list {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+}
+
+ul.select-list {
+    margin: 0;
+    padding: 10px 0px;
+    list-style-type: none;
+}
+
+ul.select-list li {
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    list-style: none;
+    width: 370px;
+}
+
+ul.select-list li {
+    background-color: #fff;
+    width: 350px;
+    padding: 10px 10px;
+}
+
+ul.select-list li:hover,
+ul.select-list li.active {
+    background-color: gainsboro;
+    word-wrap: break-word;
+    white-space: inherit;
+    text-overflow: inherit;
+    padding: 10px 10px;
+}
+
+.select-list {
+    max-height: 250px;
+    width: 382px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.download {
+    position: relative;
+    color: white;
+    background-color: red;
+    outline: none;
+    box-shadow: none;
+    border: 0px;
+    font-size: 22px;
+    height: 120%;
+    width: 45%;
+    left: 30px;
+    top: 0px;
+}
+
+@media (max-width: 767.98px) {
+    .custom-select {
+        position: relative;
+        width: 200px!important;
+        left: 20px;
+        pointer-events: none;
+        background-color: gainsboro;
+        opacity: .5;
+        color: black;
+    }
+    dropwrapper.col-md-4.col-6.p-0 {
+        position: relative;
+        left: 20px;
+    }
+    div.custom-select.disabled {
+        pointer-events: none;
+        background-color: gainsboro;
+        opacity: .5;
+        color: black;
+    }
+    .download {
+        position: relative;
+        color: white;
+        background-color: red;
+        outline: none;
+        box-shadow: none;
+        border: 0px;
+        font-size: 22px;
+        height: 120%;
+        width: 80%;
+        left: 30px;
+        top: 0px;
+    }
+} */
+
+.download[disabled] {
+    background: #e99999;
+    cursor: not-allowed;
+    color: #FFFFFF;
+}
+
+.update-credit-limit-user-flows .tabhead {
+    margin-left: 16px;
+}
+
+#backbuttonselectfile {
+    margin-top: 6px;
+    margin-right: 10px
+}
+
+.verifyCOCPSelectFile ul.sec-nav li {
+    padding-left: 15px;
+}
+
+.selectDropvalue select {
+    width: 300px;
+    border: 1px solid;
+    padding: 12px 20px;
+    margin-right: 30px;
+}
+
+.selectDropvalue {
+    margin-top: 20px;
+}
+
+.sec-nav-container {
+    box-shadow: #000000 0 2px 5px 0;
+    margin: 0px 0px 20px 0px;
+    color: #FFFFFF;
+}
+
+.mInfo_download {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    font-family: VodafoneRg;
+}
+
+div.vodadrop {
+    height: 40px;
+    width: 382px;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgb(102 102 102 / 35%);
+    font-family: VodafoneRg;
+    font-size: 16px;
+    position: relative;
+}
+
+div.selecteddrop {
+    width: inherit;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+div.selecteddrop>.text {
+    position: relative;
+    width: 90%;
+    top: -2px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+div.wrapperDropdown {
+    z-index: 10029;
+    left: -1px;
+    top: 40px;
+    position: absolute;
+    visibility: hidden;
+    box-shadow: 0 2px 5px 0 rgb(102 102 102 / 35%);
+}
+
+div.wrapperDropdown.active {
+    visibility: visible;
+}
+
+div.wrapperDropdown.drop-up {
+    bottom: 100%;
+}
+
+.selectdropDown {
+    margin-bottom: 260px;
+    margin-right: 47px;
+}
+
+ul.parent {
+    margin: 0;
+    padding: 10px 0px;
+    list-style-type: none;
+    box-shadow: 0 2px 5px 0 rgb(102 102 102 / 35%);
+    position: absolute;
+}
+
+ul.parent li {
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    list-style: none;
+    width: 370px;
+}
+
+ul.parent li {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+ul.parent li:hover,
+ul.parent li.active {
+    background-color: gainsboro;
+    word-wrap: break-word;
+    white-space: inherit;
+    text-overflow: inherit;
+    padding: 10px 10px;
+}
+
+.parent {
+    max-height: 250px;
+    width: 382px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.download {
+    position: relative;
+    color: white;
+    background-color: red;
+    outline: none;
+    font-size: 21px;
+    box-shadow: none;
+    left: 55px;
+    top: 0px;
+    height: 107%;
+    width: 173%;
+}
+
+.vodadrop {
+    background: none!important;
+}
+
+@media (max-width: 767.98px) {
+    .vodadrop {
+        position: relative;
+        width: 200px!important;
+        left: 20px;
+        pointer-events: none;
+        background-color: gainsboro;
+        opacity: .5;
+        color: black;
+    }
+    dropwrapper.col-md-4.col-6.p-0 {
+        position: relative;
+        left: 25px;
+    }
+    .download {
+        position: relative;
+        left: 20px;
+        font-size: 20px;
+        left: 0px;
+        width: 83%;
+    }
+    div.vodadrop.disabled {
+        pointer-events: none;
+        background-color: gainsboro;
+        opacity: .5;
+        color: black;
+    }
+    .icon {
+        position: relative;
+        bottom: -2px;
+        right: 10px;
+    }
+    .no-record-found {
+        color: red;
+        margin-top: 25px;
+    }
+}

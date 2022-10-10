@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="newdd.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row mb-4 ">
+            <div class="dropwrapper col-md-4 col-6 p-0 ">
+                <div class='custom-select'>
+                    <div class="selected">
+                        <span class='text'>Select</span>
+                        <i class="fa icon-chevron-down"></i>
+                    </div>
+                    <div class="vodadrop " id="vodadrop">
+                        <ul class="parent" id="parent">
+                            <li item="1"><a>Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022                        </a></li>
+                            <li item="2"><a>Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022                        </a></li>
+                            <li item="3"><a>Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022                        </a></li>
+                            <li item="4"><a>Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022                        </a></li>
+                            <li item="5"><a>Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022Test_file2_21-07-2022                        </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 ">
+                    <button class="btn primary-btn download ">Download</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        div.selected = div.selected div.select-box = vodadrop ul.select-list li = ul.parent li div.custom-select=div.custom-select
+
+
+
+
+
+
+        <script>
+            $(document).ready(function() {
+                $("div.selected").on("click", function() {
+                    var hasActiveClass = $("div.vodadrop").hasClass("active");
+
+                    if (hasActiveClass === false) {
+                        var windowHeight = $(window).outerHeight();
+                        var dropdownPosition = $(this).offset().top;
+                        var dropdownHeight = 95; // dropdown height
+
+                        if (dropdownPosition + dropdownHeight + 50 > windowHeight) {
+                            $("div.vodadrop").addClass("drop-up");
+                        } else {
+                            $("div.vodadrop").removeClass("drop-up");
+                        }
+
+                        var currentUniversity = $(this).find('text').text().trim();
+
+                        $.each($("ul.parent li"), function() {
+                            var university = $(this).text().trim();
+                            if (university === currentUniversity)
+                                $(this).addClass("active");
+                            else
+                                $(this).removeClass("active");
+                        });
+                    }
+
+                    $("div.vodadrop").toggleClass("active");
+                });
+
+                $("ul.parent li").on("click", function() {
+                    var university = $(this).html();
+                    $("span.text").html(university);
+                    $("div.vodadrop").removeClass("active");
+                });
+
+                $("ul.parent li").hover(function() {
+                    $("ul.parent li").removeClass("active");
+                });
+
+                $(document).click(function(event) {
+                    if ($(event.target).closest("div.custom-select").length < 1) {
+                        $("div.vodadrop").removeClass("active");
+                    }
+                });
+
+            });
+            $(document).ready(function() {
+                $(".download").click(function(event) {
+                    var windowSize = $(window).width();
+                    console.log(windowSize);
+                    if (windowSize < 768) {
+                        alert('ok');
+                        event.preventDefault()
+                    } else {
+                        return false()
+                    }
+                });
+
+            });
+        </script>
+
+
+        <!-- <script>
+            $(document).ready(function() {
+                $("div.selected").on("click", function() {
+                    var hasActiveClass = $("div.select-box").hasClass("active");
+
+                    if (hasActiveClass === false) {
+                        var windowHeight = $(window).outerHeight();
+                        var dropdownPosition = $(this).offset().top;
+                        var dropdownHeight = 95; // dropdown height
+
+                        if (dropdownPosition + dropdownHeight + 50 > windowHeight) {
+                            $("div.select-box").addClass("drop-up");
+                        } else {
+                            $("div.select-box").removeClass("drop-up");
+                        }
+
+                        var currentUniversity = $(this).find('text').text().trim();
+
+                        $.each($("ul.select-list li"), function() {
+                            var university = $(this).text().trim();
+                            if (university === currentUniversity)
+                                $(this).addClass("active");
+                            else
+                                $(this).removeClass("active");
+                        });
+                    }
+
+                    $("div.select-box").toggleClass("active");
+                });
+
+                $("ul.select-list li").on("click", function() {
+                    var university = $(this).html();
+                    $("span.text").html(university);
+                    $("div.select-box").removeClass("active");
+                });
+
+                $("ul.select-list li").hover(function() {
+                    $("ul.select-list li").removeClass("active");
+                });
+
+                $(document).click(function(event) {
+                    if ($(event.target).closest("div.custom-select").length < 1) {
+                        $("div.select-box").removeClass("active");
+                    }
+                });
+
+            });
+            $(document).ready(function() {
+                $(".download").click(function(event) {
+                    var windowSize = $(window).width();
+                    console.log(windowSize);
+                    if (windowSize < 768) {
+                        alert('ok');
+                        event.preventDefault()
+                    } else {
+                        return false()
+                    }
+                });
+
+            });
+        </script> -->
+
+
+</body>
+
+</html>

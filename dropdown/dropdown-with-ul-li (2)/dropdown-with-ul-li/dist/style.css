@@ -1,0 +1,67 @@
+div.custom-select 
+{
+  height: 40px;
+  width: 400px;
+  position: relative;
+  border: 1px solid #4f90c8;
+}
+
+div.selected
+{
+  width: inherit;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+}
+
+div.selected > .text
+{
+  padding: 10px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+div.select-box
+{
+  display: none;
+  width: 100%;
+  z-index: 10029;
+  position: absolute;
+  border-radius: 3px;
+  box-shadow: 0 8px 20px #000000;
+  box-shadow: 0 8px 20px rgba(0,0,0,.35)
+}
+
+div.select-box.active
+{
+  display: block;
+}
+
+div.select-box.drop-up
+{
+  top: auto;
+  bottom: 100%;
+}
+
+ul.select-list
+{
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+}
+
+ul.select-list li
+{
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+ul.select-list li:hover,
+ul.select-list li.active
+{
+  background-color: #999999;
+}

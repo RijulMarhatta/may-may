@@ -1,0 +1,54 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.all @ categories='vodafonemvp.verifycocp-selectfile'}"></sly>
+    <div class="verifyCOCPSelectFile">
+        <div class="has-bg-pm">
+            <div class="sec-nav-container row">
+                <div class="container">
+                    <ul class="sec-nav">
+                        <li class="sec-nav-item">
+                            <span class="icon-arrow-left" id="backbuttonselectfile">
+                        </span>
+                            <span class="sec-nav-head">Select File
+                                </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container update-credit-limit-user-flows breadcrumb-parent pt-0 pb-0 mb-3">
+        <sly data-sly-resource="${'breadcrumb-1' @resourceType='vodafonemvp/components/content/track-request/breadcrumb-enterprise-circle'}"></sly>
+    </div>
+
+    <div class="container">
+
+        <div class="d-md-none mInfo_download">Kindly download/upload template through a Desktop device.</div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container ">
+        <div class="row mb-4 ">
+            <div class="col-md-4 col-6 p-0 ">
+                <ul class="parent" id="parent valuesData">
+                    <i class="fa icon-chevron-down"></i>
+                    <li class="init ">select</li>
+                    <li item="1 "><a data-value="a1 ">testnew_28-07-2022_12-08-15.xlsx</a></li>
+                    <li item="2 "><a data-value="a2 ">
+                        COCP_User_Declaration_Compnay_Name_26-07-2022_17-27-36.xlsx</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-6 ">
+                <button class="btn primary-btn download " id="reqdownload">Download</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</sly>

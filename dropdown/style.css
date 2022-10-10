@@ -1,0 +1,108 @@
+   #vodadrop ul {
+       background-color: #fff;
+       box-shadow: 0 2px 5px 0 rgb(102 102 102 / 35%);
+       position: relative;
+       top: 38px;
+       left: 0;
+       z-index: 999;
+       list-style: none;
+       padding: 0;
+       overflow-y: hidden;
+       overflow-x: hidden;
+   }
+   
+   #vodadrop ul#parent {
+       width: 100%;
+   }
+   
+   #vodadrop ul li {
+       font-family: VodafoneRg;
+       position: relative;
+       z-index: 2;
+       white-space: nowrap;
+       text-overflow: ellipsis;
+       list-style: none;
+   }
+   
+   #vodadrop ul li:hover {
+       overflow: visible;
+       height: auto;
+       white-space: normal;
+   }
+   
+   #vodadrop ul li:not(.init) {
+       float: left;
+       display: none;
+       background: none;
+   }
+   
+   #vodadrop ul li:not(.init):hover,
+   #vodadrop ul li.selected:not(.init) {
+       background-color: gainsboro;
+       width: 382px;
+       padding: 10px 10px;
+   }
+   
+   #vodadrop li.init {
+       cursor: pointer;
+       position: relative;
+       text-align: left;
+   }
+   
+   #vodadrop .fa {
+       position: absolute;
+       right: 10px;
+       top: 10px;
+       cursor: pointer;
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       text-indent: 1px;
+       text-overflow: '';
+   }
+   
+   #vodadrop ul.parent .li {
+       width: 382px;
+   }
+   
+   #vodadrop a#submit {
+       z-index: 1;
+   }
+   
+   #vodadrop li {
+       position: relative;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       padding: 10px 10px;
+       font-size: 15px;
+       width: 100%;
+       padding-right: 35px;
+       cursor: pointer;
+   }
+   
+   .download {
+       position: relative;
+       color: white;
+       background-color: red;
+       border-radius: 0px!important;
+       left: 30px;
+       top: 35px;
+   }
+   
+   @media (max-width: 767.98px) {
+       #vodadrop .parent {
+           position: relative;
+           width: 100%;
+           min-height: 1px;
+           left: 15px
+       }
+       .download {
+           position: relative;
+           left: 10px;
+       }
+       #vodadrop ul.parent.disabled {
+           pointer-events: none;
+           background-color: gainsboro;
+           opacity: .5;
+           color: black;
+       }
+   }

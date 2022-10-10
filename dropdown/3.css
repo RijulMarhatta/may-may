@@ -1,0 +1,10 @@
+/* for forgotid spacing */
+
+#login-container .forgot-id {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+    color: #EDEDED;
+    text-decoration: underline;
+}

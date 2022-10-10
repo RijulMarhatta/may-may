@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>popuper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/sideDrawer.css">
+
+</head>
+
+<body>
+    <main>
+        <section>
+
+            <div class="container container1024">
+                <div class="irl_sidedrawer">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 order-2 order-sm-12">
+                            <div class="irltriggerbutton">
+                                <button type="button" class="buyPlan btn btn-outline-secondary miBlackbtn">Trigger</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Side Drawer -->
+        <div class="thankyou-drawer_2 thankyou-drawer_2-right">
+            <img class="close" src="images/mobile-icon-close.svg" style="cursor: pointer;" />
+            <div class="section1">
+
+                <div class="thankyou_wrapper_two">
+                    <div class="heading_wrapper_two">
+                        <h1 class="heading_wrapper_two_text1">your feedback is important to us</h1>
+                        <h3 class="heading_wrapper_two_text2">please rate your experience on the portal</h3>
+                    </div>
+                    <div class="emoji_wrapper_two">
+                        <div class="emoji_scenario_two">
+                            <img src="range1.png" alt="emoji_scenario_two" id="img_scenario_two">
+                        </div>
+                    </div>
+                    <div class="range-slider-wrapper_two">
+                        <div class="inputfield d-none">
+                            <label class="form-label placeholderView" for="esim" id="esimplaceholder">value </label>
+                            <input type="text" class="selectrange form-control" id="esim" onchange="updateRange(this.value);">
+                            <div class="invalid-feedback esimerrormsg" id="errorMsg" style="display: none;">box</div>
+                        </div>
+                        <div class="range-slider">
+                            <!-- <div class="thumbbackdrop"></div> -->
+                            <input class="range-slider__range" onchange="updateTextInput(this.value);" id="rangesli" type="range" value="0" min="1" max="5">
+                            <div class="range-count">
+                                <div class="points" value="1"><span class="inte">1</span></div>
+
+                                <div class="points" value="2"><span class="inte">2</span></div>
+
+                                <div class="points" value="3"><span class="inte">3</span></div>
+
+                                <div class="points" value="4"><span class="inte">4</span></div>
+
+                                <div class="points" value="5"><span class="inte">5</span></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="tysubmit_one">
+                        <button type="button" class="tysubmitbtn_one btn btn-outline-secondary " />submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="section2 d-none">
+                <div class="emoji_wrapper_two">
+                    <div class="emoji_scenario_two">
+                        <img src="range1.png" alt="emoji_scenario_two" id="img_scenario_two">
+                    </div>
+                </div>
+                <div class="tell_us_wrapper_two" id="tell_us_wrapper_two">
+
+                    <div class="col-md-12 formquestionwrap d-none ">
+                        <p class="formquestion">were you able to complete your task?</p>
+                        <div class="radioboxwrapper">
+                            <div class="radioboxwrap" id="check_option_yes">
+                                <div class="radiocheck-box">
+                                    <input type="radio" class="radio" name="x" value="checkyes" id="radiocheckyes" />
+                                    <img src="https://websheetstg.vodafoneidea.com/content/dam/vodafoneideadigital/business/IR/irradiouncheck.png" class="iruncheckradio ircheck">
+                                    <img src="https://websheetstg.vodafoneidea.com/content/dam/vodafoneideadigital/business/IR/irradiocheck.png" class="ircheckradio ircheck">
+                                </div>
+                                <label class="optionjumper active" id="checkyes" for="y">yes</label>
+                            </div>
+                            <div class="radioboxwrap" id="check_option_no">
+                                <div class="radiocheck-box">
+                                    <input type="radio" class="radio" name="x" value="checkno" id="radiocheckno" />
+                                    <img src="https://websheetstg.vodafoneidea.com/content/dam/vodafoneideadigital/business/IR/irradiouncheck.png" class="iruncheckradio ircheck">
+                                    <img src="https://websheetstg.vodafoneidea.com/content/dam/vodafoneideadigital/business/IR/irradiocheck.png" class="ircheckradio ircheck">
+                                </div>
+                                <label class="optionjumper" id="checkno" for="z">no</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tell_us_text">
+                        tell us the reason for your rating </div>
+                    <textarea name="" id="textarea" cols="30" rows="5" placeholder="type here (optional)"></textarea>
+                </div>
+
+                <div class="tysubmit_two">
+                    <button type="button" class="tysubmitbtn_two btn btn-outline-secondary ">submitt</button>
+                </div>
+
+            </div>
+
+
+        </div>
+        </div>
+
+
+
+
+        </script>
+        <div id="overlay"></div>
+        <!-- overlay is imp for drawer -->
+    </main>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/sideDrawer.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+ .radioboxwrap {
+     display: flex;
+     column-gap: 16px;
+ }
+ 
+ .optionjumper {
+     font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+     font-size: 16px;
+     line-height: 20px;
+     color: #2f3043;
+     margin: 0;
+ }
+ 
+ .radioboxwrap {
+     cursor: pointer;
+     height: 66px;
+     padding: 10px;
+     flex-direction: row;
+     display: contents;
+     align-items: start;
+     justify-content: space-between;
+ }
+ 
+ .radiocheck-box {
+     position: relative;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .radiocheck-box input {
+     width: 115px;
+     height: 60px;
+     opacity: 0;
+     z-index: 1;
+     position: absolute;
+     left: -8px;
+     right: 0;
+     top: -8px;
+     margin: auto;
+ }
+ 
+ img.ircheck {
+     width: 20px;
+     height: 20px;
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+ 
+ img.ircheckradio.ircheck {
+     display: none;
+ }
+ 
+ .radioboxwrap:first-child img.ircheckradio.ircheck {
+     display: block;
+ }
+ 
+ .radioboxwrap.ir-planhighligh .optionjumper {
+     font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+     line-height: 18px;
+     font-size: 14px;
+ }
+ 
+ #check_option_no {
+     width: 160px;
+ }
+ 
+ #check_option_yes {
+     width: 120px;
+ }
+ 
+ #checkyes {
+     margin-right: 40px;
+     margin-bottom: 0px;
+ }
+ 
+ .radioboxwrapper {
+     display: flex;
+     justify-content: center;
+     margin: 16px 167px 32px 149px;
+ }
+ 
+ @media all and (max-width: 768px) {
+     #checkyes {
+         margin-bottom: 18px;
+         margin-right: 0px;
+     }
+     img.irl_image_Frame {
+         width: 160px;
+         height: 114px;
+         padding-right: 0;
+     }
+     #check_option_yes,
+     #check_option_no {
+         width: 96px;
+     }
+     .radiocheck-box input {
+         width: 90px;
+         height: 90px;
+         opacity: 0;
+         z-index: 1;
+         position: absolute;
+         left: -8px;
+         right: 0;
+         top: -8px;
+         margin: auto;
+     }
+     img.ircheck {
+         right: 0;
+         margin: auto;
+     }
+     .radioboxwrapper {
+         display: flex;
+         justify-content: center;
+         margin-left: 116px;
+         margin-bottom: 0px;
+     }
+     .radioboxwrap {
+         cursor: pointer;
+         height: 66px;
+         padding: 10px;
+         flex-direction: row;
+         display: contents;
+         align-items: start;
+         justify-content: space-between;
+     }
+     #radiocheckno {
+         margin-left: 0px;
+     }
+ }
+ 
+ .remover {
+     display: none;
+ }
+ 
+ .formquestionwrap p {
+     margin-left: 60px;
+ }
+ 
+ button.tysubmitbtn_one.btn.btn-outline-secondary {
+     width: 335px;
+     display: flex;
+     position: relative;
+     padding: 0;
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     border-radius: 40px;
+     font-size: 16px;
+     font-family: 'ViMedium', "Helvetica", "Arial", sans-serif;
+     line-height: 1.25;
+     color: #fff;
+     background-color: #ee2737;
+ }
+ 
+ .tysubmitbtn_one,
+ .tysubmitbtn_one.btn:focus,
+ .tysubmitbtn_one.btn-outline-secondary:not(:disabled):not(.disabled).active,
+ .tysubmitbtn_one.btn-outline-secondary:not(:disabled):not(.disabled):active,
+ .tysubmitbtn_one.btn-outline-secondary:hover {
+     height: 40px;
+     font-size: 14px;
+     line-height: 18px;
+     margin-top: 26px;
+ }
+ 
+ .tysubmitbtn_one,
+ .tysubmitbtn_one.btn:focus,
+ .tysubmitbtn_one.btn-outline-secondary:not(:disabled):not(.disabled).active,
+ .tysubmitbtn_one.btn-outline-secondary:not(:disabled):not(.disabled):active,
+ .tysubmitbtn_one.btn-outline-secondary:hover {
+     background-color: #ee2737;
+     color: #fff;
+     min-width: 50%;
+     height: 50px;
+     font-size: 16px;
+     line-height: 20px;
+     border-radius: 50px;
+     border: 0;
+     box-shadow: none;
+     font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+     margin-top: 0px;
+ }
+ 
+ button.tysubmitbtn_one.btn.btn-outline-secondary {
+     /* media */
+     width: 150px;
+     height: 40px;
+     border-radius: 40px;
+     font-size: 14px;
+     line-height: 18px;
+     font-family: 'ViMedium', "Helvetica", "Arial", sans-serif;
+     left: 0;
+     right: 0;
+     margin: auto;
+     background-color: #ee2737;
+     top: 36px;
+ }

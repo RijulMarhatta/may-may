@@ -1,0 +1,389 @@
+/* Font Declaration Start */
+@font-face {
+	font-family: 'ViBold';
+	src: url(../fonts/Vi-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Bold.ttf) format('truetype')
+}
+@font-face {
+	font-family: 'ViHeavy';
+	src: url(../fonts/Vi-Heavy.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Heavy.ttf) format('truetype')
+}
+@font-face {
+	font-family: 'ViRegular';
+	src: url(../fonts/Vi-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Regular.ttf) format('truetype')
+}
+@font-face {
+	font-family: 'ViMedium';
+	src: url(../fonts/Vi-Medium.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Medium.ttf) format('truetype')
+}
+/* Font Declaration End */
+body{
+	font-family: 'ViRegular',"Helvetica","Arial",sans-serif;
+	color:#2f3043;
+}
+@media all and (min-width:1200px) {
+	.container {
+		max-width: 1232px;
+		padding-right: 16px;
+		padding-left: 16px;
+	}
+	.container1024{
+		max-width: 1024px;
+		padding:0;
+	}
+	
+}
+.buyPlan,
+.buyPlan.btn:focus,
+.buyPlan.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.buyPlan.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.buyPlan.btn-outline-secondary:hover{
+	background-color: #ee2737;
+    color: #fff;
+    min-width: 100%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: none;
+    font-family: "ViMedium","Helvetica","Arial",sans-serif;
+    margin-top: 32px;
+}
+.benefits{
+  padding: 20px 120px 20px 31px;
+  border-radius: 6px;
+  background-color: #dfebfb;
+}
+.buyPlan_topmostSection h2{
+	font-size: 36px;
+    line-height: 38px;
+    color: #2f3043;
+    margin-top: 40px;
+	margin-bottom:24px;
+    font-family: "ViBold","Helvetica","Arial",sans-serif;
+}
+
+/* hotstar exclusive section section start  */
+/* hotstar exclusive section section end  */
+
+/* hotstar top section section start  */
+.buyPlan_topmostSection{
+	margin-bottom:48px;
+}
+.buyPlan_topmostSection h1{
+	font-size:36px;
+	line-height:38px;
+	color:#2f3043;
+	margin-top:40px;
+	font-family:"ViBold","Helvetica","Arial",sans-serif;
+}
+.benefits .media-body p{
+	font-size:18px;
+	line-height:22px;
+	color:#2f3043;
+	margin-bottom:4px;
+	font-family:"ViBold","Helvetica","Arial",sans-serif;
+}
+.benefits .media-body p.subHead{
+	font-size:14px;
+	line-height:18px;
+	color:#2f3043;
+	margin-bottom:0px;
+	font-family:"ViRegular","Helvetica","Arial",sans-serif;
+}
+.benefits .media-body {
+	margin-left:14px;
+}
+.vipSubSection{
+  margin: 24px 50px 0 0;
+  padding: 20px 24px 32px 24px;
+  border-radius: 10px;
+  background-color: #fdf6ec;	
+}
+.vipText{
+	font-size:20px;
+	line-height:24px;
+	color:#2f3043;
+	margin-left:10px;
+	font-family:"ViBold","Helvetica","Arial",sans-serif;
+	vertical-align: middle;	
+}
+.vipIncludes{
+	font-size:16px;
+	line-height:20px;
+	color:#2f3043;
+	margin-bottom:20px;
+	margin-left:14px;
+	font-family:"ViBold","Helvetica","Arial",sans-serif;
+}
+.vipSubSection ul li:last-child .vipIncludes{
+	margin-bottom:0;
+}
+.vipSubSection ul li span img{
+	width:24px;
+}
+.vipSubSection ul{
+	list-style: none;
+	padding-left:0;
+	padding-top:25px;
+	margin-bottom:0;
+}
+.vipSubSection ul li{
+	display:flex;
+	align-items: baseline;
+}
+/* hotstar top section section end  */
+
+/* hotstar mobile entry section section start  */
+.activatePlanWrapper .btn, 
+.activatePlanWrapper .btn:focus, 
+.activatePlanWrapper .btn-outline-secondary:not(:disabled):not(.disabled).active, 
+.activatePlanWrapper .btn-outline-secondary:not(:disabled):not(.disabled):active {
+    background-color: #ee2737;
+    color: #fff;
+    min-width: 187px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: none;
+    font-family: "ViMedium","Helvetica","Arial",sans-serif;
+	margin-top:40px;
+}
+
+.mobileEntry p{
+	font-size:24px;
+	line-height:26px;
+	color:#2f3043;
+	margin-bottom:24px;
+	font-family:"ViBold","Helvetica","Arial",sans-serif;
+}
+.entermobileNoSection{
+    position: relative;
+    margin: 0;
+}
+.entermobileNoSection .bootLabel {
+    color: #797a86;
+    font-size: 12px;
+    line-height: normal;
+    pointer-events: none;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    background: #ffffff;
+    top: -8px;
+    left: 15px;
+    height: 20px;
+    width: auto;
+    padding: 0px 7px;
+    z-index: 1;
+}
+label.bootLabel {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    padding: 0 8px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "ViRegular","Helvetica","Arial",sans-serif;
+    text-transform: lowercase;
+    color: #797a86;
+}
+.entermobileNoSection .form-control {
+    height: 60px;
+    border: 1px solid #d8d8d8;
+    position: relative;
+    border-radius: 5px;
+    width: 404px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "ViRegular","Helvetica","Arial",sans-serif;
+    color: #2f3043;
+}
+.entermobileNoSection input:focus{
+	box-shadow:none;
+    border: solid 1px #d5d6d9;
+}
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+/* hotstar mobile entry section section end  */
+
+
+@media screen and (max-width:767px) {
+	
+	.buyPlan_topmostSection h1{
+		font-size:26px;
+		line-height:28px;
+		margin-top:20px;
+		margin-bottom:30px;
+	}
+	.buyPlan, .buyPlan.btn:focus, .buyPlan.btn-outline-secondary:not(:disabled):not(.disabled).active, .buyPlan.btn-outline-secondary:not(:disabled):not(.disabled):active, .buyPlan.btn-outline-secondary:hover{
+		height:40px;
+		font-size: 14px;
+		line-height: 18px;
+		margin-top: 26px;
+	}
+	.vipText{
+		font-size:18px;
+		line-height:22px;
+	}
+	.vipIncludes {
+		font-size: 12px;
+		line-height: 16px;
+		margin-bottom: 16px;
+	}
+	.vipSubSection ul li span img {
+		width: 20px;
+	}
+
+	
+	
+	/* hotstar top section section start  */
+	.buyPlan_topmostSection{
+		margin-bottom:60px;
+	}
+	.buyPlan_topmostSection h1{
+		font-size:26px;
+		line-height:28px;
+		margin-bottom:30px;
+	}
+	.bannerVideo{
+		margin-bottom:32px;
+	}	
+	.vipSubSection{
+		margin:0;
+		padding:20px;
+	}
+	.benefits .media-body p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.benefits .media img{
+		width:24px;
+	}
+	.benefits .media{
+		margin-bottom:16px;
+	}
+	/* hotstar top section section end  */
+	
+	/* hotstar mobile entry section section start  */
+	.mobileEntry{
+		width:100%;	
+		height:auto;
+	}
+	.entermobileNoSection .form-control{
+		width:100%;
+	}
+	.activatePlanWrapper .btn, .activatePlanWrapper .btn:focus, .activatePlanWrapper .btn-outline-secondary:not(:disabled):not(.disabled).active, .activatePlanWrapper .btn-outline-secondary:not(:disabled):not(.disabled):active{
+		height:40px;
+		font-size:14px;
+		line-height:18px;
+		margin-top:24px;
+	}
+	/* hotstar mobile entry section section end  */
+
+}
+
+
+.navTabsSim .nav {
+	display: inline-flex;
+	border-radius: 8px;
+	height: 50px;
+	min-width: 340px;
+}
+
+.navTabsSim .nav-pills .nav-link.active {
+	color: #2f3043;
+	background-color: #fff;
+	height: 46px;
+	min-width: 168px;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+.navTabsSim .nav-link {
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	min-width: 168px;
+	color: #797a86;
+	height: 46px;
+	font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+}
+
+.navTabsSim .tab-content {
+	text-align: left;
+}
+
+.navTabsSim .tab-content p {
+	font-size: 20px;
+	line-height: 24px;
+	color: #2f3043;
+	margin-bottom: 8px;
+	margin-left:20px;
+	font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+}
+.navTabsSim .media{
+	margin-bottom:24px;
+}
+.navTabsSim .tab-content p.subText{
+	font-size: 14px;
+	line-height: 18px;
+	color: #2f3043;
+	margin-bottom: 8px;
+	margin-left:20px;
+	font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+}
+
+@media screen and (max-width:767px) {
+	.navTabsSim .tab-content p {
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 24px;
+	}
+}
+
+.navTabsSim .nav {
+	display: inline-flex;
+	margin-bottom: 32px
+}
+
+.navTabsSim .nav-pills .nav-link.active {
+	background: transparent;
+	border-bottom: 3px solid #ee2737;
+	color: #2f3043;
+	font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+	font-size:16px;
+	line-height:18px;
+}
+
+.navTabsSim .nav-link {
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #2f3044;
+	font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+	border-radius: 0
+}
+
+@media screen and (max-width:767px) {
+	.navTabsSim {
+		margin-top: 0;
+		padding: 0 0px 0px
+	}
+	.benefits{
+		padding:20px 20px 6px 20px;
+	}
+	.buyPlan_topmostSection h2 {
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom:20px;
+	}
+	.navTabsSim .nav-link{
+		padding:10px 0;
+	}
+}

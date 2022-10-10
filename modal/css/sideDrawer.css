@@ -1,0 +1,1184 @@
+    @font-face {
+        font-family: "ViRegular";
+        src: url(../Vifont/Vi-Regular.eot?#iefix) format("embedded-opentype"), url(../Vifont/Vi-Regular.ttf) format("truetype");
+    }
+    
+    @font-face {
+        font-family: "ViBold";
+        src: url(../Vifont/Vi-Bold.eot?#iefix) format("embedded-opentype"), url(../Vifont/Vi-Bold.ttf) format("truetype");
+    }
+    
+    @font-face {
+        font-family: "ViHeavy";
+        src: url(../Vifont/Vi-Heavy.eot?#iefix) format("embedded-opentype"), url(../Vifont/Vi-Heavy.ttf) format("truetype");
+    }
+    
+    @font-face {
+        font-family: "ViMedium";
+        src: url(../Vifont/Vi-Medium.eot?#iefix) format("embedded-opentype"), url(../Vifont/Vi-Medium.ttf) format("truetype");
+    }
+    
+    html,
+    body {
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+        color: #2f3043;
+        /* height: 800px; */
+    }
+    
+    .heading_wrapper_two {
+        margin-top: 35px;
+    }
+    
+    .increaser {
+        margin: -40px 178px 0px 178px !important;
+    }
+    
+    .heading_wrapper_two_text1 {
+        font-family: 'ViBold', "Helvetica", "Arial", sans-serif;
+        font-size: 26px;
+        line-height: 1.15;
+        text-align: center;
+        color: #2f3043;
+    }
+    
+    .heading_wrapper_two_text2 {
+        font-family: 'ViRegular', "Helvetica", "Arial", sans-serif;
+        font-size: 18px;
+        line-height: 1.22;
+        text-align: center;
+        color: #595969;
+    }
+    
+    button.tysubmitbtn_two.btn.btn-outline-secondary {
+        width: 335px;
+        display: flex;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        font-size: 16px;
+        font-family: 'ViMedium', "Helvetica", "Arial", sans-serif;
+        line-height: 1.25;
+        color: #fff;
+        background-color: #ee2737;
+    }
+    
+    .tysubmitbtn_two,
+    .tysubmitbtn_two.btn:focus,
+    .tysubmitbtn_two.btn-outline-secondary:not(:disabled):not(.disabled).active,
+    .tysubmitbtn_two.btn-outline-secondary:not(:disabled):not(.disabled):active,
+    .tysubmitbtn_two.btn-outline-secondary:hover {
+        height: 40px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 26px;
+    }
+    
+    .tysubmitbtn_two,
+    .tysubmitbtn_two.btn:focus,
+    .tysubmitbtn_two.btn-outline-secondary:not(:disabled):not(.disabled).active,
+    .tysubmitbtn_two.btn-outline-secondary:not(:disabled):not(.disabled):active,
+    .tysubmitbtn_two.btn-outline-secondary:hover {
+        background-color: #ee2737;
+        color: #fff;
+        min-width: 50%;
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 50px;
+        border: 0;
+        box-shadow: none;
+        font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+        margin-top: 0px;
+    }
+    
+    button.tysubmitbtn_one.btn.btn-outline-secondary {
+        width: 335px;
+        display: flex;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        font-size: 16px;
+        font-family: 'ViMedium', "Helvetica", "Arial", sans-serif;
+        line-height: 1.25;
+        color: #fff;
+        background-color: #ee2737;
+    }
+    
+    .tysubmitbtn_one,
+    .tysubmitbtn_one.btn:focus,
+    .tysubmitbtn_one.btn-outline-secondary:not(:disabled):not(.disabled).active,
+    .tysubmitbtn_one.btn-outline-secondary:not(:disabled):not(.disabled):active,
+    .tysubmitbtn_one.btn-outline-secondary:hover {
+        height: 40px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 26px;
+    }
+    
+    .tysubmitbtn_one,
+    .tysubmitbtn_one.btn:focus,
+    .tysubmitbtn_one.btn-outline-secondary:not(:disabled):not(.disabled).active,
+    .tysubmitbtn_one.btn-outline-secondary:not(:disabled):not(.disabled):active,
+    .tysubmitbtn_one.btn-outline-secondary:hover {
+        background-color: #ee2737;
+        color: #fff;
+        min-width: 50%;
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 50px;
+        border: 0;
+        box-shadow: none;
+        font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+        margin-top: 0px;
+    }
+    
+    .tell_us_text {
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+        position: relative;
+        font-size: 20px;
+        left: 93px;
+        line-height: 1.2;
+        color: #2f3043;
+        margin-bottom: 16px;
+    }
+    
+    #textarea {
+        outline: none;
+        resize: none;
+        position: relative;
+        left: 20px;
+        width: 440px;
+        height: 128px;
+        border-radius: 8px;
+        margin-bottom: 40px;
+        border: solid 1px #d5d6d9;
+    }
+    
+    #textarea::placeholder {
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+        font-size: 16px;
+        position: relative;
+        line-height: 1.13;
+        top: 21px;
+        padding-left: 16px;
+        letter-spacing: normal;
+        color: #82838e;
+    }
+    
+    .remover {
+        display: none;
+    }
+    
+    .close:not(:disabled):not(.disabled):focus,
+    .close:not(:disabled):not(.disabled):hover,
+    .close {
+        opacity: 1;
+        height: 24px;
+        width: auto;
+    }
+    
+    .thankyou-drawer_2-push {
+        overflow-x: hidden;
+        position: relative;
+        right: 0;
+    }
+    
+    .thankyou-drawer_2 {
+        border-radius: 10px;
+        background: #fff;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        width: 504px;
+        padding: 46px 63px 40px 60px;
+    }
+    
+    .thankyou-drawer_2 .row {
+        height: 100%;
+    }
+    
+    .thankyou-drawer_2-right {
+        right: -456px;
+    }
+    
+    .thankyou-drawer_2-right.thankyou-drawer_2-open {
+        right: 0;
+        width: 600px;
+        height: auto;
+        z-index: 2;
+        left: 0;
+        margin: auto;
+        background-image: url("../images/sidebar.svg");
+    }
+    
+    .range-count .points:nth-child(3)::after {
+        width: 1.34px;
+    }
+    
+    .thankyou-drawer_2,
+    .thankyou-drawer_2-push {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all ease;
+    }
+    /*.thankyou-drawer_2 .close {
+    display: none;
+}*/
+    
+    .arrow-icon {
+        position: absolute;
+        right: 58px;
+        top: 25px;
+    }
+    
+    #overlay.show {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        -khtml-opacity: 0.5;
+        opacity: 0.5;
+        z-index: 1;
+    }
+    /* custom */
+    /* Font Declaration Start */
+    
+    @font-face {
+        font-family: 'ViBold';
+        src: url(../fonts/Vi-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Bold.ttf) format('truetype')
+    }
+    
+    @font-face {
+        font-family: 'ViHeavy';
+        src: url(../fonts/Vi-Heavy.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Heavy.ttf) format('truetype')
+    }
+    
+    @font-face {
+        font-family: 'ViRegular';
+        src: url(../fonts/Vi-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Regular.ttf) format('truetype')
+    }
+    
+    @font-face {
+        font-family: 'ViMedium';
+        src: url(../fonts/Vi-Medium.eot?#iefix) format('embedded-opentype'), url(../fonts/Vi-Medium.ttf) format('truetype')
+    }
+    /* Font Declaration End */
+    
+    body {
+        font-family: 'ViRegular', "Helvetica", "Arial", sans-serif;
+        color: #2f3043;
+    }
+    
+    .irl_sidedrawimageactive {
+        width: 224px;
+        height: 140px;
+        margin: 72px 92px 40px 70px;
+        object-fit: contain;
+    }
+    
+    @media all and (min-width:1200px) {
+        .container {
+            max-width: 1232px;
+            padding-right: 16px;
+            padding-left: 16px;
+        }
+        .container1024 {
+            max-width: 1024px;
+            padding: 0;
+        }
+    }
+    
+    .irl_talking {
+        bottom: 15px;
+        margin-left: 70px;
+        position: relative;
+        font-family: 'ViRegular', "Helvetica", "Arial", sans-serif;
+        font-size: 16px;
+        line-height: 1.25;
+        color: #2f3043;
+    }
+    
+    .progress-bar {
+        width: 100%;
+        height: 100%;
+        background-color: #eaeaec;
+    }
+    
+    .irl_sidewrap {
+        width: 335px;
+        height: 81px;
+        margin: 0 0 20px;
+        padding: 17px 26px 18px 25px;
+        border-radius: 10px;
+        background-color: #f4f4f4;
+    }
+    
+    .irl_sidedraw h3 {
+        font-size: 24px;
+        line-height: 26px;
+        color: #2f3043;
+        margin-top: 16px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .irl_sidedraw h5 {
+        font-size: 16px;
+        line-height: 20px;
+        color: #2f3043;
+        margin-top: 32px;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .irl_sidedraw .form-control {
+        height: 68px;
+        border: 1px solid #d8d8d8;
+        position: relative;
+        border-radius: 5px;
+        width: 335px;
+        font-size: 28px;
+        line-height: 20px;
+        letter-spacing: 18px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+        color: #2f3043;
+    }
+    
+    .irl_text {
+        width: 320px;
+        height: 48px;
+        padding-left: 17px;
+        margin: 0 0 16px;
+        font-family: 'ViHeavy', "Helvetica", "Arial", sans-serif;
+        font-size: 24px;
+        color: #2f3043;
+    }
+    
+    .irl_sidedraw .form-control::placeholder {
+        text-align: center
+    }
+    
+    .irlmaintext {
+        width: 335px;
+        height: 48px;
+        font-family: 'ViHeavy', "Helvetica", "Arial", sans-serif;
+        font-size: 24px;
+        line-height: 1;
+        color: #2f3043;
+    }
+    
+    .irl_sidedraw .bootLabel {
+        color: #797a86;
+        font-size: 12px;
+        pointer-events: none;
+        overflow: hidden;
+        white-space: nowrap;
+        position: absolute;
+        background: #fff;
+        top: -8px;
+        left: 15px;
+        height: 20px;
+        width: auto;
+        padding: 0 7px;
+        z-index: 1
+    }
+    
+    .irl_sidedraw .resendotp {
+        font-size: 12px;
+        line-height: 16px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+        margin-left: 28px;
+        color: #2f3043;
+        text-decoration: underline;
+    }
+    
+    button[disabled] {
+        background: #d5d6d9 !important;
+        border-color: #d5d6d9 !important;
+        color: #fff;
+    }
+    
+    .miBlackbtn {
+        border-radius: 25px !important;
+        background-color: #ee2737;
+        background: linear-gradient(to right, #f1525f 50%, #ee2737 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out !important;
+    }
+    
+    .buyPlan,
+    .buyPlan.btn:focus,
+    .buyPlan.btn-outline-secondary:not(:disabled):not(.disabled).active,
+    .buyPlan.btn-outline-secondary:not(:disabled):not(.disabled):active,
+    .buyPlan.btn-outline-secondary:hover {
+        background-color: #ee2737;
+        color: #fff;
+        min-width: 50%;
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 50px;
+        border: 0;
+        box-shadow: none;
+        font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+        margin-top: 0px;
+    }
+    
+    .benefits {
+        padding: 20px 120px 20px 31px;
+        border-radius: 6px;
+        background-color: #dfebfb;
+    }
+    
+    .irl_sidedrawer h2 {
+        font-size: 36px;
+        line-height: 38px;
+        color: #2f3043;
+        margin-top: 40px;
+        margin-bottom: 24px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    /* hotstar exclusive section section start  */
+    /* hotstar exclusive section section end  */
+    /* hotstar top section section start  */
+    
+    .irl_sidedrawer {
+        margin-bottom: 48px;
+    }
+    
+    .irl_sidedrawer h1 {
+        font-size: 36px;
+        line-height: 38px;
+        color: #2f3043;
+        margin-top: 40px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .benefits .media-body p {
+        font-size: 18px;
+        line-height: 22px;
+        color: #2f3043;
+        margin-bottom: 4px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .benefits .media-body p.subHead {
+        font-size: 14px;
+        line-height: 18px;
+        color: #2f3043;
+        margin-bottom: 0px;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .benefits .media-body {
+        margin-left: 14px;
+    }
+    
+    .irltriggerbutton {
+        border-radius: 10px;
+    }
+    
+    .vipText {
+        font-size: 20px;
+        line-height: 24px;
+        color: #2f3043;
+        margin-left: 10px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+        vertical-align: middle;
+    }
+    
+    .vipIncludes {
+        font-size: 16px;
+        line-height: 20px;
+        color: #2f3043;
+        margin-bottom: 20px;
+        margin-left: 14px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .irltriggerbutton ul li:last-child .vipIncludes {
+        margin-bottom: 0;
+    }
+    
+    .irltriggerbutton ul li span img {
+        width: 24px;
+    }
+    
+    .irltriggerbutton ul {
+        list-style: none;
+        padding-left: 0;
+        padding-top: 25px;
+        margin-bottom: 0;
+    }
+    
+    .irltriggerbutton ul li {
+        display: flex;
+        align-items: baseline;
+    }
+    /* hotstar top section section end  */
+    /* hotstar mobile entry section section start  */
+    
+    .activatePlanWrapper .btn,
+    .activatePlanWrapper .btn:focus,
+    .activatePlanWrapper .btn-outline-secondary:not(:disabled):not(.disabled).active,
+    .activatePlanWrapper .btn-outline-secondary:not(:disabled):not(.disabled):active {
+        background-color: #ee2737;
+        color: #fff;
+        min-width: 187px;
+        height: 50px;
+        font-size: 14px;
+        line-height: 18px;
+        border-radius: 50px;
+        border: 0;
+        box-shadow: none;
+        font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+        margin-top: 40px;
+    }
+    
+    .mobileEntry p {
+        font-size: 24px;
+        line-height: 26px;
+        color: #2f3043;
+        margin-bottom: 24px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .entermobileNoSection {
+        position: relative;
+        margin: 0;
+    }
+    
+    .entermobileNoSection .bootLabel {
+        color: #797a86;
+        font-size: 12px;
+        pointer-events: none;
+        overflow: hidden;
+        white-space: nowrap;
+        position: absolute;
+        background: #ffffff;
+        top: -8px;
+        left: 15px;
+        height: 20px;
+        width: auto;
+        padding: 0px 7px;
+        z-index: 1;
+    }
+    
+    label.bootLabel {
+        position: absolute;
+        top: -10px;
+        left: 15px;
+        padding: 0 8px;
+        background-color: #fff;
+        font-size: 14px;
+        line-height: 17px;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+        text-transform: lowercase;
+        color: #797a86;
+    }
+    
+    .entermobileNoSection .form-control {
+        height: 60px;
+        border: 1px solid #d8d8d8;
+        position: relative;
+        border-radius: 5px;
+        width: 404px;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+        color: #2f3043;
+    }
+    
+    .entermobileNoSection input:focus {
+        box-shadow: none;
+        border: solid 1px #d5d6d9;
+    }
+    
+    input:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    .irllogin {
+        width: 372px;
+        height: 36px;
+        padding-left: 10px;
+        font-family: 'ViRegular', "Helvetica", "Arial", sans-serif;
+        font-size: 16px;
+        line-height: 1.13;
+        color: #595969;
+    }
+    
+    .irl_logintext {
+        padding-left: 35px;
+    }
+    
+    .irl_cancellink {
+        text-decoration: underline;
+        width: 109px;
+        height: 18px;
+        margin-left: 140px;
+        font-family: 'ViRegular', "Helvetica", "Arial", sans-serif;
+        font-size: 16px;
+        color: #2f3043;
+    }
+    
+    .irl_cancellink a {
+        color: #2f3043;
+        font-family: 'ViRegular', "Helvetica", "Arial", sans-serif;
+    }
+    
+    .navTabsSim .nav {
+        display: inline-flex;
+        border-radius: 8px;
+        height: 50px;
+        min-width: 340px;
+    }
+    
+    .navTabsSim .nav-pills .nav-link.active {
+        color: #2f3043;
+        background-color: #fff;
+        height: 46px;
+        min-width: 168px;
+        margin-top: 2px;
+        margin-left: 2px;
+    }
+    
+    .navTabsSim .nav-link {
+        font-size: 14px;
+        line-height: 28px;
+        min-width: 168px;
+        color: #797a86;
+        height: 46px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .navTabsSim .tab-content {
+        text-align: left;
+    }
+    
+    .navTabsSim .tab-content p {
+        font-size: 20px;
+        line-height: 24px;
+        color: #2f3043;
+        margin-bottom: 8px;
+        margin-left: 20px;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .navTabsSim .media {
+        margin-bottom: 24px;
+    }
+    
+    .navTabsSim .tab-content p.subText {
+        font-size: 14px;
+        line-height: 18px;
+        color: #2f3043;
+        margin-bottom: 8px;
+        margin-left: 20px;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .navTabsSim .nav {
+        display: inline-flex;
+        margin-bottom: 32px
+    }
+    
+    .navTabsSim .nav-pills .nav-link.active {
+        background: transparent;
+        border-bottom: 3px solid #ee2737;
+        color: #2f3043;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .navTabsSim .nav-link {
+        font-size: 16px;
+        line-height: 20px;
+        color: #2f3044;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+        border-radius: 0
+    }
+    /*------ progress Journey ------*/
+    
+    .rangewrapper h6 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 24px;
+        line-height: 24px;
+        color: #2f3043;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    p.rangepara {
+        font-size: 18px;
+        line-height: 22px;
+        color: #2f3043;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+        padding-right: 50px;
+        margin-bottom: 32px;
+    }
+    
+    .selectrange {
+        width: 288px;
+        height: 60px;
+        margin: 0 325px 24px 0;
+        padding: 21px 16px 21px 16px;
+        border-radius: 8px;
+        border: solid 1px #d5d6d9;
+        font-size: 16px;
+        line-height: 18px;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .range-slider__range {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 8px;
+        border-radius: 10px;
+        background: #fbf1e3;
+        outline: none;
+        /* overflow: hidden; */
+    }
+    
+    input.range-slider__range::-webkit-slider-thumb {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        -webkit-appearance: none;
+        border: solid 2px #fff4cc;
+        background: #ffc600;
+    }
+    
+    .range-slider-wrapper_two {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 47px;
+    }
+    
+    .range-count {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        height: 18px;
+        font-family: 'ViRegular', "Helvetica", "Arial", sans-serif;
+        font-size: 14px;
+        line-height: 1.29;
+        color: #000;
+        margin-top: 2.5px;
+        margin-left: 3px;
+    }
+    
+    .range-count .points:after {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 4px;
+        background: #000;
+        top: 7px;
+        flex-grow: 0;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .range-count .points {
+        position: relative;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    
+    p.redirecttext {
+        font-size: 16px;
+        line-height: 16px;
+        color: #2f3043;
+        font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+        margin: 0;
+        text-decoration: underline;
+    }
+    
+    .rangewrapper .col.col-12 {
+        padding: 0;
+    }
+    
+    .emoji_scenario_two img {
+        width: 120px;
+        height: 120px;
+        left: 0;
+        right: 0;
+        margin: 0px 178px 24px 178px;
+    }
+    
+    .tysubmitbtn {
+        width: 335px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 44px 84px 0 95px;
+        padding: 6px 20px 8px;
+        border-radius: 40px;
+        border: 0px;
+        background-color: #ee2737;
+        color: white;
+    }
+    
+    .btn_submit {
+        width: 335px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: #fff;
+        font-size: 16px;
+        margin: 44px 84px 0 95px;
+        padding: 6px 20px 8px;
+        border-radius: 40px;
+        border: 0px;
+        background-color: #ee2737;
+        font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .btn_submit .btn,
+    .btn_submit .btn:focus,
+    .btn_submit .btn-outline-secondary:not(:disabled):not(.disabled).active,
+    .btn_submit .btn-outline-secondary:not(:disabled):not(.disabled):active {
+        background-color: #ee2737;
+        color: #fff;
+        min-width: 187px;
+        height: 50px;
+        font-size: 14px;
+        line-height: 18px;
+        border-radius: 50px;
+        border: 0;
+        box-shadow: none;
+        font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+        margin-top: 40px;
+    }
+    
+    @media (max-width: 768px) {
+        .thankyou-drawer_2-right.thankyou-drawer_2-open {
+            width: 100%;
+            height: 380px;
+        }
+        .thankyou-drawer_2 {
+            width: 100%;
+            height: auto;
+            top: unset;
+            padding: 0;
+        }
+        .thankyou-drawer_2 .row {
+            padding: 20px;
+            margin: 0;
+        }
+        .thankyou-drawer_2 .col.col-12 {
+            padding: 0;
+        }
+        .thankyou-drawer_2-right {
+            right: 0;
+            bottom: -102%;
+        }
+        .thankyou-drawer_2-push {
+            right: 0;
+            bottom: 0;
+        }
+        .thankyou-drawer_2-right.thankyou-drawer_2-open {
+            left: 0;
+            margin: auto;
+            bottom: 0;
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+            height: auto;
+        }
+        .thankyou-drawer_2 .closeLineIconParent {
+            display: block;
+            height: 3px;
+            margin: 12px 0 0 0;
+        }
+        .thankyou-drawer_2 .closeLineIcon {
+            width: 40px;
+            height: 4px;
+            background: #d8d8d8;
+            border-radius: 2px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        .thankyou-drawer_2 .close {
+            position: absolute;
+            top: -40px;
+            right: 5px;
+        }
+        /* new css */
+        .heading_wrapper_two {
+            margin-top: 24px;
+        }
+        .heading_wrapper_two_text1 {
+            font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        .heading_wrapper_two_text2 {
+            font-family: "ViMedium", "Helvetica", "Arial", sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .emoji_scenario_two img {
+            width: 80px;
+            height: 80px;
+            left: 0;
+            right: 0;
+            margin: 24px 166px;
+        }
+        .range-slider-wrapper_two {
+            width: 342px;
+            height: 72px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        button.tysubmitbtn_two.btn.btn-outline-secondary {
+            width: 150px;
+            height: 40px;
+            border-radius: 40px;
+            font-size: 14px;
+            line-height: 18px;
+            font-family: 'ViMedium', "Helvetica", "Arial", sans-serif;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: #ee2737;
+            top: 36px;
+        }
+        button.tysubmitbtn_one.btn.btn-outline-secondary {
+            width: 150px;
+            height: 40px;
+            border-radius: 40px;
+            font-size: 14px;
+            line-height: 18px;
+            font-family: 'ViMedium', "Helvetica", "Arial", sans-serif;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: #ee2737;
+            top: 36px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .irl_text {
+            padding-left: 0px;
+            font-family: 'ViHeavy', "Helvetica", "Arial", sans-serif;
+            font-size: 20px;
+            color: #2f3043;
+        }
+        .irlmaintext {
+            width: 335px;
+            height: 48px;
+            font-family: 'ViHeavy', "Helvetica", "Arial", sans-serif;
+            font-size: 20px;
+            line-height: 1;
+            color: #2f3043;
+        }
+        .irl_logintext {
+            font-size: 14px;
+            padding-left: 0px;
+        }
+        .irl_talking {
+            font-size: 14px;
+            padding-left: 0px;
+        }
+        irl_cancellink {
+            font-size: 14px;
+            padding-left: 0px;
+        }
+        .irllogin {
+            font-size: 14px;
+            margin-top: -13px;
+            padding: 0px;
+        }
+        .irl_sidedrawimageactive {
+            display: none;
+        }
+        .irl_sidedrawer h1 {
+            font-size: 26px;
+            line-height: 28px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .buyPlan,
+        .buyPlan.btn:focus,
+        .buyPlan.btn-outline-secondary:not(:disabled):not(.disabled).active,
+        .buyPlan.btn-outline-secondary:not(:disabled):not(.disabled):active,
+        .buyPlan.btn-outline-secondary:hover {
+            height: 40px;
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 26px;
+        }
+        .vipText {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .vipIncludes {
+            font-size: 12px;
+            line-height: 16px;
+            margin-bottom: 16px;
+        }
+        .irltriggerbutton ul li span img {
+            width: 20px;
+        }
+        /* hotstar top section section start  */
+        .irl_sidedrawer {
+            margin-bottom: 60px;
+        }
+        .irl_sidedrawer h1 {
+            font-size: 26px;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+        .bannerVideo {
+            margin-bottom: 32px;
+        }
+        .irltriggerbutton {
+            margin: 0;
+            padding: 20px;
+        }
+        .benefits .media-body p {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .benefits .media img {
+            width: 24px;
+        }
+        .benefits .media {
+            margin-bottom: 16px;
+        }
+        /* hotstar top section section end  */
+        /* hotstar mobile entry section section start  */
+        .mobileEntry {
+            width: 100%;
+            height: auto;
+        }
+        .entermobileNoSection .form-control {
+            width: 100%;
+        }
+        .activatePlanWrapper .btn,
+        .activatePlanWrapper .btn:focus,
+        .activatePlanWrapper .btn-outline-secondary:not(:disabled):not(.disabled).active,
+        .activatePlanWrapper .btn-outline-secondary:not(:disabled):not(.disabled):active {
+            height: 40px;
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 24px;
+        }
+        /* hotstar mobile entry section section end  */
+    }
+    
+    @media screen and (max-width:767px) {
+        .navTabsSim {
+            margin-top: 0;
+            padding: 0 0px 0px
+        }
+        .benefits {
+            padding: 20px 20px 6px 20px;
+        }
+        .irl_sidedrawer h2 {
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 20px;
+        }
+        .navTabsSim .nav-link {
+            padding: 10px 0;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        p.rangepara {
+            padding-right: 0;
+        }
+        .container.container1024 {
+            padding: 0;
+        }
+        .range-slider__range,
+        .range-count {
+            width: 100%;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .tysubmit_two {
+            position: relative;
+            padding: 0;
+            bottom: 24px;
+            margin-bottom: 24px;
+        }
+        #textarea {
+            position: relative;
+            width: 295px;
+            height: 108px;
+            margin: 16px 40px;
+        }
+        .range-count .points {
+            position: relative;
+            padding-top: 10px;
+            cursor: pointer;
+            font-family: "ViRegular", "Helvetica", "Arial", sans-serif;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .formquestion {
+            margin-left: 10px;
+        }
+        .formquestionwrap p {
+            margin-left: 35px;
+            font-size: 18px;
+            line-height: 22px;
+            color: #2f3043;
+            font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+        }
+        .tell_us_text {
+            font-size: 18px;
+            line-height: 1.22;
+            color: #2f3043;
+            margin-left: 0px;
+        }
+    }
+    /* for radio */
+    
+    .formquestion {
+        margin-left: 40px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        line-height: 24px;
+        color: #2f3043;
+        font-family: "ViBold", "Helvetica", "Arial", sans-serif;
+    }
+    
+    .label_yes,
+    .label_no {
+        margin-right: 30px;
+        font-size: 15px;
+    }
+    
+    .active {
+        font-size: 19px;
+    }

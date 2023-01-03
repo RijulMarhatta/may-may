@@ -25,7 +25,7 @@ $(document).ready(function() {
             $(this).siblings().addClass("d-none");
             flagFName = "true";
         }
-                //console.log($("#fname").val());//
+               // console.log($("#fname").val());//
                 validate();
     });
     $('#lname').blur(function() {
@@ -47,7 +47,7 @@ $(document).ready(function() {
             $(this).siblings().addClass("d-none");
             flagLName = "true";
         }
-                //console.log($("#fname").val());//
+                //console.log($("#lname").val());//
                 validate();
     });
 
@@ -120,6 +120,9 @@ $(document).ready(function() {
             flagSelected="true";
         }
         validate();
+
+// $(".radioyes input[type='radio']:checked").val();
+
     });
 
    
@@ -131,8 +134,14 @@ $(document).ready(function() {
         validate();
     });
 
+    $("#submit").click(function()
+    {
+        addData();
+   
+    });
+   
 
-  
+
 });
 
 
@@ -149,4 +158,41 @@ function validate(){
     }
 
    
+
+}
+
+function addData(){
+
+    console.log($("#fname").val());
+    console.log($("#lname").val()); 
+    console.log($("#mobile").val()); 
+    console.log($("#email").val());
+    console.log($("#optionselecter").val()); 
+    console.log($(".radioyes input[type='radio']:checked").val())
+
+
+
+   
+var fnamedata = $("#fname").val();
+var lnamedata = $("#lname").val();
+var emaildata = $("#email").val();
+var mobiledata = $("#mobile").val();
+var countrydata = $("#optionselecter").val();
+var radiodata = $(".radioyes input[type='radio']:checked").val();
+
+
+    $("body").append("<table><tbody><tr><td>"+fnamedata+"</td><td>"+lnamedata+"</td><td>"+emaildata+"</td><td>"+mobiledata+"</td><td>"+countrydata+"</td><td>"+radiodata+"</td></tr></tbody></table>"); 
+    $("#fname , #lname , #email , #mobile, #optionselecter").val("");
+    $( ".radioyes input" ).prop( "checked", false);
+
+    $("#submit").prop("disabled", true);
+ flagFName ="false"; 
+ flagLName ="false";
+ flagEmail ="false";
+ flagLName = "false";
+ flagSelected="false";
+ flagRadio="false";
+
+    
+
 }

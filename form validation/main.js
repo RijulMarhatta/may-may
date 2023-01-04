@@ -180,8 +180,10 @@ var mobiledata = $("#mobile").val();
 var countrydata = $("#optionselecter").val();
 var radiodata = $(".radioyes input[type='radio']:checked").val();
 
+$(".table").removeClass("d-none");
+    $(".appendhere").append("<tr class = tablerow ><td class = tablecontent1>"+fnamedata+"</td><td class = tablecontent2>"+lnamedata+"</td><td class = tablecontent3>"+emaildata+"</td><td class = tablecontent4>"+mobiledata+"</td><td class = tablecontent5>"+countrydata+"</td><td class = tablecontent6>"+radiodata+"</td></tr><br>"); 
+   
 
-    $("body").append("<table><tbody><tr><td>"+fnamedata+"</td><td>"+lnamedata+"</td><td>"+emaildata+"</td><td>"+mobiledata+"</td><td>"+countrydata+"</td><td>"+radiodata+"</td></tr></tbody></table>"); 
     $("#fname , #lname , #email , #mobile, #optionselecter").val("");
     $( ".radioyes input" ).prop( "checked", false);
 
@@ -192,7 +194,5 @@ var radiodata = $(".radioyes input[type='radio']:checked").val();
  flagLName = "false";
  flagSelected="false";
  flagRadio="false";
-
-    
 
 }

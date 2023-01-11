@@ -1,8 +1,13 @@
+.mainwrap{
+	background: hsl(218deg 50% 91%);}
+
 input#fname,
 input#lname,
 input#email,
 input#mobile,
 #optionselecter {
+    border-radius: 10px;
+
     padding: 10px;
     border: 1px solid black;
 }
@@ -14,7 +19,21 @@ input#mobile:focus-visible,
 .optionselecter:focus-visible {
     outline: none;
 }
+.progresswrap{
+margin: 20px 0px; 
 
+}
+.prog{
+    margin: 0px 500px;
+}
+
+.meter
+{   display:inline-block;
+    background:peru;
+    color:green;
+    width:0;
+    height:20px;
+}
 
 
 .optionselecter_wrap.row.gy-3 {
@@ -32,7 +51,8 @@ input#mobile:focus-visible,
 
 .login {
     margin: 0px 20px 5px;
-    color: white;
+	color: hsl(233deg 36% 38%);
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -55,31 +75,29 @@ input#mobile:focus-visible,
 }
 
 .sbtn:disabled {
-    align-items:center ;
-    padding: 0px 20px;
-    display: flex;
-    border-radius: 10px;
-    border: 1px solid;
-    outline: none;    color: black;
-    background-color:beige;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+    background-color:aliceblue;
+    color:rgb(56, 52, 52);
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sbtn {
-    align-items:center ;
-    padding: 0px 20px;
-    display: flex;
-    color: #fff;
-    margin:auto ;
-    border-radius: 10px;
-    border: 1px solid;
-    outline: none;
-    background-color:red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+    background: hsl(233deg 36% 38%);
+    color:#fff;
+    border: none;
+    margin: 0px 500px;
+    border-radius: 30px;
+    font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .radioyes {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 
 .optionselecter_wrap {

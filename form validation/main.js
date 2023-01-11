@@ -27,6 +27,7 @@ $(document).ready(function() {
         }
                // console.log($("#fname").val());//
                 validate();
+                updateprogress();
     });
     $('#lname').blur(function() {
         if (this.value == 0) {
@@ -49,6 +50,8 @@ $(document).ready(function() {
         }
                 //console.log($("#lname").val());//
                 validate();
+                updateprogress();
+
     });
 
 
@@ -68,7 +71,7 @@ $(document).ready(function() {
 
         this.value = this.value.replace(/[^0-9]/g, '');
         validate();
-
+        updateprogress();
     });
     $("#mobile").blur(function() {
         var abc = $(this).val();
@@ -83,6 +86,7 @@ $(document).ready(function() {
             $(this).siblings().removeClass("d-none").html("Mobile number is required*");
 
         }
+       
 
     });
 
@@ -108,6 +112,8 @@ $(document).ready(function() {
             $(this).siblings().removeClass("d-none");
             flagEmail ="false";
         }
+        updateprogress();
+
          validate();
     });
 
@@ -120,6 +126,7 @@ $(document).ready(function() {
             flagSelected="true";
         }
         validate();
+         updateprogress();
 
 // $(".radioyes input[type='radio']:checked").val();
 
@@ -132,6 +139,7 @@ $(document).ready(function() {
             flagRadio="true";
         }
         validate();
+        updateprogress();
     });
 
     $("#submit").click(function()
@@ -139,15 +147,16 @@ $(document).ready(function() {
         addData();
    
     });
-   
-
+    fetch('https://www.balldontlie.io/api/v1/teams')
+    .then(res => res.json())
+    .then((out) => {
+        var abc = (JSON.stringify(out));
+       // console.log('Output: ', abc);
+       $(".mypanel").append("<div>"+abc+"</div>");
+})
+.catch(err => console.error(err));
 
 });
-
-
-
-
-
 
 function validate(){
     
@@ -170,9 +179,6 @@ function addData(){
     console.log($("#optionselecter").val()); 
     console.log($(".radioyes input[type='radio']:checked").val())
 
-
-
-   
 var fnamedata = $("#fname").val();
 var lnamedata = $("#lname").val();
 var emaildata = $("#email").val();
@@ -188,6 +194,8 @@ $(".table").removeClass("d-none");
     $( ".radioyes input" ).prop( "checked", false);
 
     $("#submit").prop("disabled", true);
+    updateprogress();
+
  flagFName ="false"; 
  flagLName ="false";
  flagEmail ="false";
@@ -195,4 +203,16 @@ $(".table").removeClass("d-none");
  flagSelected="false";
  flagRadio="false";
 
+}
+function updateprogress(){
+   var count = $(".progressparent").length 
+   var length = $("#fname, #lname, #mobile, #email, #optionselecter, .radioyes input[type='radio']:checked").filter(function() {
+        return this.value;
+      }).length; 
+
+      var done = Math.floor(length * (100 / count));
+      $('.perc').text(done);
+      $('.meter').width(done);
+
+   
 }

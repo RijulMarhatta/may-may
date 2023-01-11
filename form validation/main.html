@@ -14,39 +14,48 @@
 </head>
 
 <body>
+    
 
+  
 
-    <div class="mainwrap">
+    <div class="mainwrap"> 
+        
         <div class="container_wrap">
-
-
+           
             <h4 class="login">LOGIN FORM </h4>
+
+            <div class="progresswrap">
+               <div class="prog"> 
+                <span class='meter'></span>
+                <span class='perc'>0</span>%
+              </div>
+            </div>
             <div class="row gy-5">
-                <div class="col-md-3">
+                <div class="col-md-3 progressparent">
 
                     <input type="text" id="fname" name="fname" value="" placeholder="first name" autocomplete="off"><br>
                     <span class="  alerto d-none  ">Text is necessary here* </span>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 progressparent">
                     <input type="text" id="lname" name="lname" value="" placeholder="last name" autocomplete="off"><br>
                     <span class="  alerto d-none">Text is necessary here* </span>
 
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 progressparent">
                     <input type="email" id="email" name="email" value="" placeholder="emailid" autocomplete="off"><br>
                     <span class="  alerto d-none">Text is necessary here* </span>
 
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 progressparent">
                     <input type="tel" id="mobile" name="mobile" value="" placeholder="phone number" maxlength="10" autocomplete="off"><br>
                     <span class="  alerto d-none">Number is necessary here* </span>
                 </div>
-                <div class="col-md-3 selectwrap d-flex">
+                <div class="col-md-3 progressparent d-flex">
 
-                    <div class="optionselecter_wrap row gy-3 ">
+                    <div class="row gy-3 ">
                         <select class="optionselecter" id="optionselecter">
                     <option value="" style="display:none">Choose country</option>
                     <option value="india">india</option>
@@ -56,7 +65,7 @@
 
 
 
-                </select>
+                    </select>
                         <span class="  alerto d-none">please select a value*</span>
 
 
@@ -64,7 +73,8 @@
 
 
                 </div>
-                <div class="col-md-3 radiowrap d-flex">
+                <div class="col-md-3 progressparent d-flex">
+                <div class=" radiowrap d-flex">
                     <div class="radioyes">
                         <input type="radio" id="yes" name="checkme" value=" yes">   <label for="yes" class="yes"> yes</label>
                     </div>
@@ -75,34 +85,40 @@
                     <span class=" alerto d-none">please select yes or no*</span>
 
                 </div>
-
+            
+                </div>
                 <div class="col-md-12 submitbtn">
                     <input class="sbtn" id="submit" type="submit" value="submit" disabled>
                     <label for="submit"></label></div>
             </div>
-         </div>
-        
-        
-         <table class="table d-none">
-            <thead>
-              <tr>
-                <th>First</th>
-                <th>Last</th>
-                <th>Email</th>
-                <th>Mobile</th>
-                <th>Country</th>
-                <th>option</th>
-              </tr>
-            </thead>
-            <tbody class="appendhere">
-          
-            </tbody>
-          </table>
-      
-
+        </div>
     </div>
+<div class="output" id="output">
 
-
+</div>
+<table class="table d-none">
+    <thead>
+      <tr>
+        <th>First</th>
+        <th>Last</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>Country</th>
+        <th>option</th>
+      </tr>
+    </thead>
+    <tbody class="appendhere">
+  
+    </tbody>
+  </table>
+  <div class="mypanel">
+ 
+  <div class="clone">
+    
+    <p class="data">
+    </p>
+</div>
+</div>
 
 
     
